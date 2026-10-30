@@ -1,0 +1,168 @@
+{
+  "BernsteinLean.Analytic.exp_le_series_bound": [
+    "BernsteinLean.Analytic.exp_le_quadratic_of_nonpos",
+    "BernsteinLean.Analytic.hasSum_exp_tail"
+  ],
+  "BernsteinLean.MGF.single": [
+    "BernsteinLean.Analytic.hasSum_exp_tail",
+    "BernsteinLean.Analytic.exp_le_series_bound"
+  ],
+  "BernsteinLean.MGF.cgf_le": [
+    "BernsteinLean.MGF.single",
+    "BernsteinLean.MGF.integrable_exp_mul_sum\u2080"
+  ],
+  "BernsteinLean.General.tail_le_exp": [
+    "BernsteinLean.General.hasBernsteinCGF",
+    "BernsteinLean.HasBernsteinCGF.tail_le_exp"
+  ],
+  "BernsteinLean.General.tail_sqrt": [
+    "BernsteinLean.General.sum_ae_eq_zero",
+    "BernsteinLean.General.hasBernsteinCGF",
+    "BernsteinLean.HasBernsteinCGF.tail_sqrt"
+  ],
+  "BernsteinLean.General.tail_sqrt_strict": [
+    "BernsteinLean.General.tail_sqrt",
+    "BernsteinLean.General.sum_ae_eq_zero"
+  ],
+  "BernsteinLean.General.tail": [
+    "BernsteinLean.General.sum_ae_eq_zero",
+    "BernsteinLean.General.hasBernsteinCGF",
+    "BernsteinLean.HasBernsteinCGF.tail"
+  ],
+  "BernsteinLean.Bounded.pow_le_factorial_mul": [
+    "BernsteinLean.Analytic.two_mul_three_pow_le_factorial"
+  ],
+  "BernsteinLean.Bounded.integrable_max_pow": [
+    "BernsteinLean.Bounded.max_pow_le"
+  ],
+  "BernsteinLean.Bounded.moment_condition": [
+    "BernsteinLean.Bounded.integrable_max_pow",
+    "BernsteinLean.Bounded.max_pow_le",
+    "BernsteinLean.Bounded.pow_le_factorial_mul"
+  ],
+  "BernsteinLean.bernstein_cgf": [
+    "BernsteinLean.MGF.cgf_le"
+  ],
+  "BernsteinLean.bernstein_integrable_exp": [
+    "BernsteinLean.MGF.cgf_le"
+  ],
+  "BernsteinLean.bernstein_tail_sqrt": [
+    "BernsteinLean.General.tail_sqrt"
+  ],
+  "BernsteinLean.bernstein_tail_sqrt_strict": [
+    "BernsteinLean.General.tail_sqrt_strict"
+  ],
+  "BernsteinLean.bernstein_tail": [
+    "BernsteinLean.General.tail"
+  ],
+  "BernsteinLean.bernstein_bounded_tail": [
+    "BernsteinLean.General.tail",
+    "BernsteinLean.Bounded.integrable_max_pow",
+    "BernsteinLean.Bounded.moment_condition"
+  ],
+  "BernsteinLean.bernstein_bounded_tail_sqrt": [
+    "BernsteinLean.General.tail_sqrt",
+    "BernsteinLean.Bounded.integrable_max_pow",
+    "BernsteinLean.Bounded.moment_condition"
+  ],
+  "BernsteinLean.bernstein_bounded_tail_sqrt_strict": [
+    "BernsteinLean.General.tail_sqrt_strict",
+    "BernsteinLean.Bounded.integrable_max_pow",
+    "BernsteinLean.Bounded.moment_condition"
+  ],
+  "BernsteinLean.bernstein_bounded_two_sided": [
+    "BernsteinLean.memLp_of_abs_le",
+    "BernsteinLean.bernstein_bounded_tail",
+    "BernsteinLean.neg_sq_sum",
+    "BernsteinLean.two_sided_of",
+    "BernsteinLean.neg_sum"
+  ],
+  "BernsteinLean.bernstein_bounded_two_sided_sqrt": [
+    "BernsteinLean.memLp_of_abs_le",
+    "BernsteinLean.bernstein_bounded_tail_sqrt",
+    "BernsteinLean.neg_sq_sum",
+    "BernsteinLean.two_sided_of",
+    "BernsteinLean.neg_sum"
+  ],
+  "BernsteinLean.bernstein_bounded_two_sided_sqrt_strict": [
+    "BernsteinLean.memLp_of_abs_le",
+    "BernsteinLean.bernstein_bounded_tail_sqrt_strict",
+    "BernsteinLean.neg_sq_sum",
+    "BernsteinLean.two_sided_of",
+    "BernsteinLean.neg_sum"
+  ],
+  "BernsteinLean.centered_eq": [
+    "BernsteinLean.Product.integral_eval"
+  ],
+  "BernsteinLean.sq_eq": [
+    "BernsteinLean.Product.integral_eval"
+  ],
+  "BernsteinLean.bernstein_bounded_tail_pi": [
+    "BernsteinLean.bernstein_bounded_tail",
+    "BernsteinLean.Product.indep",
+    "BernsteinLean.Product.memLp",
+    "BernsteinLean.Product.ae_eval",
+    "BernsteinLean.sq_eq",
+    "BernsteinLean.centered_eq"
+  ],
+  "BernsteinLean.bernstein_bounded_tail_sqrt_pi": [
+    "BernsteinLean.bernstein_bounded_tail_sqrt",
+    "BernsteinLean.Product.indep",
+    "BernsteinLean.Product.memLp",
+    "BernsteinLean.Product.ae_eval",
+    "BernsteinLean.sq_eq",
+    "BernsteinLean.centered_eq"
+  ],
+  "BernsteinLean.bernstein_bounded_two_sided_pi": [
+    "BernsteinLean.bernstein_bounded_two_sided",
+    "BernsteinLean.Product.indep",
+    "BernsteinLean.Product.aemeasurable",
+    "BernsteinLean.Product.ae_eval",
+    "BernsteinLean.sq_eq",
+    "BernsteinLean.centered_eq"
+  ],
+  "BernsteinLean.bernstein_bounded_two_sided_sqrt_pi": [
+    "BernsteinLean.bernstein_bounded_two_sided_sqrt",
+    "BernsteinLean.Product.indep",
+    "BernsteinLean.Product.aemeasurable",
+    "BernsteinLean.Product.ae_eval",
+    "BernsteinLean.sq_eq",
+    "BernsteinLean.centered_eq"
+  ],
+  "BernsteinLean.bernstein_bounded_two_sided_sqrt_strict_pi": [
+    "BernsteinLean.bernstein_bounded_two_sided_sqrt_strict",
+    "BernsteinLean.Product.indep",
+    "BernsteinLean.Product.aemeasurable",
+    "BernsteinLean.Product.ae_eval",
+    "BernsteinLean.sq_eq",
+    "BernsteinLean.centered_eq"
+  ],
+  "BernsteinLean.bernstein_iid_mean": [
+    "BernsteinLean.bernstein_bounded_two_sided_sqrt_strict_pi",
+    "BernsteinLean.threshold_scale",
+    "BernsteinLean.deviation_scale"
+  ],
+  "BernsteinLean.bernstein_iid_mean_ge": [
+    "BernsteinLean.bernstein_bounded_two_sided_sqrt_pi",
+    "BernsteinLean.threshold_scale",
+    "BernsteinLean.deviation_scale"
+  ],
+  "BernsteinLean.General.hasBernsteinCGF": [
+    "BernsteinLean.MGF.cgf_le"
+  ],
+  "BernsteinLean.HasBernsteinCGF.tail": [
+    "BernsteinLean.HasBernsteinCGF.tail_le_exp"
+  ],
+  "BernsteinLean.HasBernsteinCGF.tail_sqrt": [
+    "BernsteinLean.HasBernsteinCGF.tail_le_exp"
+  ],
+  "BernsteinLean.bernstein_variance_tail": [
+    "BernsteinLean.bernstein_bounded_tail"
+  ],
+  "BernsteinLean.bernstein_variance_two_sided_sqrt_strict": [
+    "BernsteinLean.bernstein_bounded_two_sided_sqrt_strict"
+  ],
+  "BernsteinLean.bernstein_frequency": [
+    "BernsteinLean.bernstein_iid_mean"
+  ]
+}
